@@ -10,7 +10,7 @@
     <header>
       <div class="logo">
         <img src="./img/6203095.png" alt="Logo de tu sitio" width="100" />
-        <span>devalacuotas</span>
+        <h2>devaluacuota$</h2>
       </div>
       <nav>
         <!-- Aquí puedes agregar tu menú de navegación si lo tienes -->
@@ -24,16 +24,24 @@
     </header>
     <main>
       <section>
-        <form>
-            <div class="form-input">
-                <label for="contado">Precio de contado</label>
-                <input type="number" name="precioContado" id="precioContado">
-            </div>
+        <form action="" class="form">
+      
+          <input type="text" placeholder="Name" class="form__input" id="name" />
+          <label for="name" class="form__label">Name</label>
+    
+          <input type="email" placeholder="Email" class="form__input" id="email" />
+          <label for="email" class="form__label">Email</label>
+    
+          <input type="text" placeholder="Subject" class="form__input" id="subject" />
+          <label for="subject" class="form__label">Subject</label>
+          
+          <button class="button">Calcular</button>
         </form>
       </section>
     </main>
     <footer>
       <small>Marcos Gual &copy;2023 Todos los derechos reservados</small>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
